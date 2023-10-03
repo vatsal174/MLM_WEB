@@ -1,0 +1,171 @@
+.team-main {
+    width: 100%;
+    padding: 100px 0;
+}
+.team-main-bg {
+    width: 100%;
+    height: 100%;
+}
+.team-tit {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    padding: 45px 0 0 26px;
+}
+
+.team-inner {
+    padding: 0 15px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 11;
+}
+
+.team-total {
+    width: 100%;
+    border-radius: 15px;
+    color: #9fabc4;
+    background: rgba(73,89,113,.55);
+    box-shadow: 0px 5px 30px 0px hsla(0,0%,78%,.2);
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.team-total > div {
+    flex: 1;
+    text-align: center;
+}
+
+.team-total > div p {
+    color: #7ad8cd;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.team-total > div p:nth-of-type(2) {
+    color: #acacac;
+}
+
+.team-code {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px;
+    color: #9fabc4;
+    background: rgba(73,89,113,.55);
+    box-shadow: 0px 5px 30px 0px hsla(0,0%,78%,.2);
+    padding: 15px;
+}
+
+.code-tit {
+    font-size: 16px;
+    color: #acacac;
+}
+
+.team-code-copy {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.team-code-input {
+    flex: 1;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+    background: linear-gradient(92.53deg,#ffdfbd,#d0a7a8 95.77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team-code-copy .copy {
+    border: 0.5px solid #7ad8cd;
+    background: transparent;
+    color: #7ad8cd;
+    box-shadow: 0px 1px 8px 0px rgba(41,89,198,.47);
+    margin-left: 10px;
+    flex-shrink: 0;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.team-level-total {
+    background: #3d5f5b;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.team-level-total > div {
+    flex: 1;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.team-member {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px;
+    color: #9fabc4;
+    background: rgba(73,89,113,.55);
+    box-shadow: 0px 5px 30px 0px hsla(0,0%,78%,.2);
+    padding: 15px;
+}
+
+.team-member-tab {
+    display: flex;
+    align-items: center;
+}
+
+.team-member-tab a {
+    background: #7ad8cd;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    flex: 1;
+    border-radius: 0;
+    color: #03051b;
+}
+
+.team-member-tab a.active {
+    color: #7ad8cd;
+    background: #03051b;
+}
+
+.team-member-list {
+    margin-top: 14px;
+}
+
+.team-member-list-tab {
+    display: flex;
+    align-items: center;
+}
+
+.team-member-list-tab > div {
+    line-height: 30px;
+    flex: 1;
+    text-align: center;
+    background: #7ad8cd;
+    color: #101010;
+}
+
+.team-member-list-info {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+}
+
+.team-member-list-info > div {
+    flex: 1;
+    text-align: center;
+    color: #acacac;
+}
+
+.dropload-down {
+    color: #ffffff;
+}

@@ -1,0 +1,142 @@
+.login {
+    max-width: 768px;
+    margin: auto;
+    width: 100%;
+    padding: 15px 4%;
+}
+
+.login::before {
+    position: absolute;
+    content: "";
+    top: -52%;
+    left: 0;
+    width: 120%;
+    height: 44%;
+    -webkit-filter: blur(350px);
+    filter: blur(350px);
+    background: linear-gradient(90deg, #38cffe 2.86%, #a926d7 97.63%);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+.login-top {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-top img {
+    width: 150px;
+    height: auto;
+}
+
+.login-main {
+    padding: 15px;
+    border: 1px solid #7ad8cd;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.login-main h3 {
+    width: 100%;
+    font-size: 24px;
+    color: #7ad8cd;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login-main-input {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #283041;
+}
+
+.login-main-input span {
+    color: #9fabc4;
+    margin-left: 10px;
+}
+
+.login-main-input input {
+    width: 100%;
+    height: 44px;
+    background: none;
+    line-height: 44px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.forget {
+    width: 100%;
+    display: inline-block;
+    margin: 12px 0;
+    text-align: right;
+    color: #7ad8cd !important;
+    padding: 12px 0;
+}
+
+.btn-box {
+    width: 100%;
+}
+
+.btn-box .login-btn, .btn-box .reg-btn {
+    width: 100%;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: linear-gradient(90.51deg, #87f9c2 8.05%, #6bb1d9 92.6%);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #111235;
+    border: none;
+    font-size: 17px;
+}
+
+.btn-box .reg-btn {
+    border: none;
+    background: none;
+    color: #7ad8cd;
+}
+
+.login-main-otp-input {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.login-main-otp {
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #283041;
+}
+
+.login-main-otp input {
+    width: 100%;
+    height: 44px;
+    background: none;
+    line-height: 44px;
+    border: 0;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.login-main-otp-btn {
+    background: #7ad8cd;
+    border-radius: 8px;
+    height: 44px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 44px;
+    color: #000;
+    border: none;
+}

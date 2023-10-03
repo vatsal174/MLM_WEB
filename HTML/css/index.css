@@ -1,0 +1,254 @@
+.home-main {
+    width: 100%;
+    padding: 100px 3%;
+}
+
+.home-video {
+    width: 100%;
+}
+
+.home-video video {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.banner .swiper-slide {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.banner .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.swiper-pagination-bullet {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    opacity: 1;
+    border-radius: 10px;
+    background: white;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out;
+
+}
+
+.swiper-pagination-bullet-active {
+    background: #ffffff;
+    width: 12px;
+}
+
+.home-container {
+    width: 100%;
+}
+
+.notice {
+    width: 100%;
+    height: 42px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice img {
+    height: 16px;
+    width: auto;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+.notice .swiper {
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.notice .swiper-wrapper {
+    width: 100%;
+    height: 42px;
+    display: block;
+}
+
+.notice .swiper-slide {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    font-size: 14px;
+    color: #ffdfbd;
+}
+
+.home-tab-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.home-tab-container a {
+    flex: 0 0 25%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9fabc4;
+}
+.home-tab-container a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(73,89,113,.55);
+    margin-bottom: 6px;
+}
+
+.home-tab-container a img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.home-product {
+    width: 100%;
+}
+
+.home-product-tit {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: Sora;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background: linear-gradient(90.51deg,#87f9c2 8.05%,#6bb1d9 92.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.z-mask {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+}
+
+
+.mask-content {
+    padding: 15px;
+    float: left;
+    width: 100%;
+}
+
+.mask-message {
+    margin-top: 10vh;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    color: #999;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-align: left;
+}
+
+.mask-float {
+    margin-top: 10vh;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    color: #999;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-align: left;
+}
+
+.mask-float-tit {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 600;
+    color: #16d582;
+    font-size: 18px;
+}
+
+.mask-float-txt {
+    padding: 20px 15px 10px;
+    line-height: 30px;
+    min-height: 20vh;
+    max-height: 50vh;
+    height: auto;
+    overflow: auto;
+    font-family: CNN, Helvetica Neue, Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    color: #333;
+}
+
+.mask-float-txt img, .mask-float-txt p, .mask-float-txt video {
+    width: 100%;
+    height: auto;
+}
+
+.mask-float-btn {
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    background: #16d582;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.mask-float-btn a {
+    width: 100%;
+    text-align: center;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mask-float-btn a:hover, .mask-float-btn a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+

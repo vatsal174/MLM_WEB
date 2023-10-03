@@ -1,0 +1,152 @@
+.article-content h1 {
+    box-sizing: border-box;
+    font-family: Inter;
+    margin: 20px 0;
+    text-align: justify;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.article-content p span{
+    font-size: 16px; 
+    color: rgb(0, 176, 80);    
+    text-wrap: nowrap;
+    text-align: center;
+}
+.article-content p{
+    margin: 10px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.article-content h2{
+    text-align: center; 
+    margin: 20px 0;
+    color: rgb(0, 176, 80);
+    font-size: 20px;
+}
+.article-content h2 strong{
+    font-size: 30px;
+}
+.top-sec{
+    display: flex !important;
+    align-items: center;
+    padding: 30px 0;
+}
+.top-sec img{
+    width: 50% !important;
+    height: 100% !important;
+}
+.top-sec span{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    font-size: 24px !important;
+    line-height: 30px;
+    color: #fff !important;
+    letter-spacing: 2px;
+}
+.top-sec-2 {
+    padding: 0 20px;
+    width: 50%;
+}
+.top-sec-2 span{
+    max-width: 95%;
+    width: 100%;
+    display: block !important;
+    margin: auto;
+    font-size: 18px !important;
+    line-height: 30px;
+    color: #fff !important;
+    letter-spacing: 1px;
+}
+.about-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.about-info .about-info-inner{
+    width: 30%;
+    padding: 15px;
+    border: 1px solid;
+    margin: 15px;
+}
+.about-info .about-info-inner h3{
+    color: #fff !important;
+    font-size: 24px;
+}
+.about-info .about-info-inner p{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.elementor-heading-title{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    margin: 30px 0;
+}
+.elementor-heading-img{
+    display: flex;
+}
+.elementor-heading-img img{
+    padding: 0 15px;
+    width: 33.33%;
+    height: 500px !important;
+    object-fit: cover !important;
+}
+.trust-sec-info{
+    padding: 0 30px;
+}
+.trust-sec-info p{
+    font-size: 20px;
+}
+.leader-img{
+    max-width: 300px;
+    width: 100% !important;
+    margin: auto !important;
+    display: block !important;
+}
+.leader-sec{
+    display: flex;
+    align-items: center;
+}
+.leader-sec h5{
+    max-width: 600px;
+    line-height: 30px;
+    margin: auto;
+}
+.edui-upload-video{
+    height: 550px !important;
+    border: 1px solid;
+    padding: 15px;
+}
+.video-text{
+    font-size: 20px;
+    color: #fff !important;
+    letter-spacing: 1px;
+}
+.invest-sec{
+    display: flex;
+    align-items: center;
+}
+.invest-sec img{
+    width: 50%;
+    height: 550px !important;
+    object-fit: cover !important;
+}
+.invest-sec img+div{
+    width: 50%;
+    padding: 15px;
+}
+.invest-sec img+div p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+}
+.article-content img {
+    height: 550px;
+    object-fit: contain;
+}

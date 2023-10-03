@@ -1,0 +1,43 @@
+@media(max-width:992px){
+    .banner {
+        height: 70vh;
+    }
+    .home-product-info{
+        width: 50%;
+    }
+}
+@media(max-width:768px){
+    .banner {
+        height: 50vh;
+    }
+    .top-sec{
+        display: block !important;
+    }
+    .article-content img, .top-sec-2{
+        width: 100% !important;
+        margin-bottom: 20px;
+        height: 100% !important;
+    }
+    .about-info, .leader-sec, .elementor-heading-img, .invest-sec{
+        display: block;
+    }
+    .about-info .about-info-inner, .invest-sec img+div{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media(max-width:650px){
+    .home-product-info{
+        width: 100%;
+    }
+    .home-product-info .product-img, .home-product-info .product-img img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+}
+@media(max-width:480px){
+    .banner {
+        height: 40vh;
+    }
+}
